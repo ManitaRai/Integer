@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Form">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textSize="30sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rbSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbmale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Male"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Female"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/Other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Other"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Region"
+
+        />
+
+    <Spinner
+        android:id="@+id/spnPradesh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/p"
+
+
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Hobbies"
+        style="@style/fontStyle" />
+
+    <CheckBox
+        android:id="@+id/cbMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/CbTravel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travel"
+        android:textSize="20dp" />
+
+    <CheckBox
+       android:id="@+id/Dance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dance"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fontStyle"
+        android:textSize="30dp"
+        android:text="Submit" />
+
+
+
+</LinearLayout>
+
+
+
+
