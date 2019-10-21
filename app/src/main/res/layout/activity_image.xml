@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <activity android:name=" .ImageActivity">
+            <intent-filter>
+                <action android:name="android.intent.activity">
+
+                </action>
+            </intent-filter>
+
+        </activity>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose one Animal"
+            android:gravity="center"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <RadioGroup
+                android:id = "@+id/rgSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbBird"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bird"
+                    android:layout_weight="1"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rbTiger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tiger"
+                    android:layout_weight="1"
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/rbSnake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Snake"
+                    android:layout_weight="1"
+                    />
+            </RadioGroup>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ivShowing"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bird"
+            />
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tiger"
+            />
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/snake"
+            />
+
+
+    </LinearLayout>
+
+
+

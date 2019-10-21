@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Integer</string>
+
+    <string name="test"></string>
+    <string-array name="p">
+        <item>p</item>
+        <item>p1</item>
+        <item>p2</item>
+        <item>p3</item>
+    </string-array>
+</resources>
